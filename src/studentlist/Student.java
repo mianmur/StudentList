@@ -12,6 +12,9 @@ public class Student {
     
     private String stud_Name;
 
+    public Student(String name){
+        this.stud_Name = name;
+    }
     /**
      * @return the stud_Name
      */
