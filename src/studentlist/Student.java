@@ -11,6 +11,9 @@ package studentlist;
 public class Student {
     
     private String stud_Name;
+    
+    public Student(){
+    }
 
     public Student(String name){
         this.stud_Name = name;
